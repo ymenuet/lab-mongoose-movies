@@ -10,8 +10,10 @@ const movieSchema = new Schema({
     plot: {
         type: String
     }
-}, {
+},
+ {
     timestamps: true
-})
+}
+)
 
 module.exports = model("Movie", movieSchema)
