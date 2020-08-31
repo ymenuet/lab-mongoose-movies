@@ -10,8 +10,10 @@ const celebritySchema = new Schema({
     catchPhrase: {
         type: String
     }
-}, {
+}, 
+{
     timestamps: true
-})
+}
+)
 
 module.exports = model("Celebrity", celebritySchema)

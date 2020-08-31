@@ -11,6 +11,7 @@ exports.listMovies = async(req, res, next) => {
         next();
         console.log(err)
     }
+
 }
 
 exports.movieDetails = async(req, res, next) => {
@@ -21,6 +22,7 @@ exports.movieDetails = async(req, res, next) => {
         next();
         console.log(err);
     }
+
 }
 
 exports.formMovie = async(req, res) => {
@@ -54,6 +56,7 @@ exports.deleteMovie = async(req, res, next) => {
         next();
         console.log(err);
     }
+    
 }
 
 exports.updateForm = async(req, res, next) => {
